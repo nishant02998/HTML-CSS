@@ -1,0 +1,6 @@
+HTML stands for Hyper text markup language.
+HTML is used to create electronic documents(called pages) that are displayed on World Wide Web.
+<!doctype html> = It tells the browser about the type of document we are working in.
+<html> is opening tag. </html> is called closing tags
+<head> tag is used tp store information about document such as title and other special information store in head tag.
+<body> tag = inside it all the content are displaye
