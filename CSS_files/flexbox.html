@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>
+            Flexbox
+        </title>
+        <style>
+            ul{
+                list-style-type: none;
+                height: 200px;
+                margin: 0;
+                padding: 0;
+                border: 1px solid red;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: stretch;
+            }
+            li{
+                border: 1px solid black;
+                margin: 0.5em;
+                padding: 0.5em;
+            }
+            .order1{
+                order: 1;
+            }
+            .order2{
+                order: 2;
+            }
+            .order3{
+                order: 3;
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li class="order1">1st</li>
+            <li class="order2">2nd</li>
+            <li class="order3">3rd</li>
+        </ul>
+    </body>
+</html>
