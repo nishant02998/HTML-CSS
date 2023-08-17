@@ -9,4 +9,8 @@ CSS stands for Cascading Style Sheets and it is simple and p[owerful way to styl
 Attributes:
 1)Style attribute hold properties in key value pair and it is seperated by ";"
 2)Class = Same class can apply to multiple tags
-3)id = It is a unique one can be applied to only one tags
+3)id = It is a unique one can be applied to only one tag
+Z-index positions
+div tag divide our webpages into different diiferent sections.
+clear property is used to clear the float spaces.
+span tag is used to combine elements in same elements.

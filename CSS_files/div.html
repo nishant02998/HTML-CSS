@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Internal Css</title>
+        <style>
+            #first-section{
+                color: pink;
+                background-color: #FF0040;
+                width: 200px;
+                left: 10px;
+                top: 50px;
+                position: relative;
+                z-index: 1;
+            }
+            #second-section{
+                background-color: blue;
+                width: 200px;
+                position: relative;
+                z-index: 4;
+                opacity: 0.5;
+            }
+            .clear{
+                clear: both;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="first-section">
+          <h1>CSS is cool</h1>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+        <div id="second-section">
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>    
+        </div>
+        <p class="clear">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    </body>
+</html>
