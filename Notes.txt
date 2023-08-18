@@ -15,3 +15,15 @@ div tag divide our webpages into different diiferent sections.
 clear property is used to clear the float spaces.
 span tag is used to combine elements in same elements.
 flex property is applied to the container/parent element.
+document keyword will tell the Javascript that we are looking something at this page.
+-------------------------------------------------------------
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        
+    </body>
+</html>
+---------------------------------------------------------------
+

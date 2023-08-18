@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Onclick event</title>
+    </head>
+    <body>
+        <p id="first">Hi!!</p>
+        <button id="change">Change text</button>
+        <script>
+            //Definition of function
+            document.getElementById("change").onclick = function(){
+                document.getElementById("first").innerHTML = "Onclick of button";
+            }
+        </script>
+    </body>
+</html>

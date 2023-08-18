@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Change website content</title>
+    </head>
+    <body>
+        <p id="para">Para</p>
+        <p id="para2">Paragraph</p>
+        <p id="para3"></p>
+        <button id="add">click me</button>
+        <script>
+            document.getElementById("add").onclick = function(){
+                document.getElementById("para").innerHTML = document.getElementById("para").innerHTML + "graph";
+                document.getElementById("para2").innerHTML = "second " + document.getElementById("para2").innerHTML; 
+                document.getElementById("para3").innerHTML = "<h1>Lorem ipsum ..............</h1>";
+                document.getElementById("para").style.color = "red";
+                document.getElementById("para").style.fontSize = "50px";
+                document.getElementById("para").style.display = "none";
+
+            }
+        </script>
+    </body>
+</html>
