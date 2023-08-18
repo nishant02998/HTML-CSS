@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Variables</title>
+    </head>
+    <body>
+        <p><input id="textbox" type="text"></p>
+        <button id="button">Submit</button>
+        <p id="para1">This is para 1</p>
+        <script>
+            document.getElementById("button").onclick = function(){
+                var text = "";
+                text = document.getElementById("textbox").value;
+                console.log(text);
+                document.getElementById("para1").innerHTML = text;
+            }
+        </script>
+    </body>
+</html>
