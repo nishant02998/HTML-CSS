@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Random number guessing game!!</title>
+  </head>
+  <body>
+    <p>Enter a number between 1-5</p>
+    <input id="input1" type="text" />
+    <button id="Submit">Submit</button>
+    <script>
+      var userAns = 0;
+      document.getElementById("Submit").onclick = function () {
+        userAns = document.getElementById("input1").value;
+        //Random number between 1 and 5.
+        var ans = Math.floor(Math.random() * 5 + 1);
+        if (userAns == ans) {
+          alert("user has won");
+        } else {
+          alert("try again!!..");
+        }
+      };
+    </script>
+  </body>
+</html>

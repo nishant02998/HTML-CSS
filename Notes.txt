@@ -5,7 +5,7 @@ HTML is used to create electronic documents(called pages) that are displayed on 
 <head> tag is used tp store information about document such as title and other special information store in head tag.
 <body> tag = inside it all the content are Displayed
 -----------------------------------------------------------
-CSS stands for Cascading Style Sheets and it is simple and p[owerful way to style things.
+CSS stands for Cascading Style Sheets and it is simple and powerful way to style things.
 Attributes:
 1)Style attribute hold properties in key value pair and it is seperated by ";"
 2)Class = Same class can apply to multiple tags

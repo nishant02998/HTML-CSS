@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <title>for loop</title>
+  </head>
+  <body>
+    <p id="para1"></p>
+    <script>
+      var tweets = ["Good Morning", "Having tea", "all the best"];
+      var para = "";
+      for (var i = 0; i < 3; i++) {
+        para = para + " " + tweets[i];
+      }
+      document.getElementById("para1").innerHTML = para;
+    </script>
+  </body>
+</html>
