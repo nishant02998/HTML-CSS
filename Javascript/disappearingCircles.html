@@ -1,50 +1,40 @@
 <html>
-    <head>
-        <title>Disappearing Circles</title>
-        <style>
-            ul{
-                height: 200px;
-                border: 1px solid red;
-                margin: 0;
-                padding: 0;
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-                list-style-type: none;
-            }
-            .circle{
-                height: 130px;
-                width: 130px;
-                display: flex;
-                float: left;
-                border-radius: 50%;
-                margin-right: 50px;
-            }
-            #red{
-                background-color: red;
-            }
-            #blue{
-                background-color: blue;
-            }
-            #green{
-                background-color: green;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="circle" id="red"></div>
-        <div class="circle" id="blue"></div>
-        <div class="circle" id="green"></div>
-        <script>
-            document.getElementById("red").onclick = function(){
-                document.getElementById("red").style.display = "none";
-            }
-            document.getElementById("blue").onclick = function(){
-                document.getElementById("blue").style.display = "none";
-            }
-            document.getElementById("green").onclick = function(){
-                document.getElementById("green").style.display = "none";
-            }                        
-        </script>
-    </body>
+  <head>
+    <title>Disappearing Circles</title>
+    <style>
+      .circle {
+        height: 130px;
+        width: 130px;
+        display: flex;
+        float: left;
+        border-radius: 50%;
+        margin-right: 50px;
+      }
+      #red {
+        background-color: red;
+      }
+      #blue {
+        background-color: blue;
+      }
+      #green {
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="circle" id="red"></div>
+    <div class="circle" id="blue"></div>
+    <div class="circle" id="green"></div>
+    <script>
+      document.getElementById("red").onclick = function () {
+        document.getElementById("red").style.display = "none";
+      };
+      document.getElementById("blue").onclick = function () {
+        document.getElementById("blue").style.display = "none";
+      };
+      document.getElementById("green").onclick = function () {
+        document.getElementById("green").style.display = "none";
+      };
+    </script>
+  </body>
 </html>
