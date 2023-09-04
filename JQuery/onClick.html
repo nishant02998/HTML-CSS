@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>OnCLick</title>
+        <style>
+            #flex{
+                display: flex;
+                float: left;
+                justify-content: space-around;
+                border: 2px red solid;
+                width: 100%;
+            }
+            #Circle{
+                height: 130px;
+                width: 130px;
+                border-radius: 50%;
+                background-color: green;
+            }
+            #Sqr{
+                height: 130px;
+                width: 130px;
+                background-color: blue;
+            }
+            #Square{
+                height: 130px;
+                width: 130px;
+                background-color: red;
+            }
+        </style>
+        <script src="../Javascript/jquery.js"></script>
+    </head>
+    <body>
+        <div id="flex">
+            <p id="Circle"></p>
+            <p id="Square"></p>
+            <p id="Sqr"></p>
+        </div>
+        <script>
+            //In Jquery we access elements using "$" symbol
+            $("#Circle").hover(function(){
+                alert("Hover");
+            });
+            $("#Square").click(function(){
+                alert("clicked");
+            });
+            $("#Sqr").click(function(){
+                alert("Clicked");
+            });
+        </script>
+    </body>
+</html>
